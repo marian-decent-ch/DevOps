@@ -5,5 +5,6 @@ Aim of the repository is to setup DevOps via Docker images as part of automated 
 ## Decentd
 
 Run DCore daemon in docker container:
-
+```
 docker run -it -p 8090:8090 -p 9090:9090 decentnetwork/decentd decentd
+```
