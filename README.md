@@ -5,15 +5,15 @@ Aim of the repository is to setup DevOps via Docker images as part of automated 
 In order to run containers, docker engine must be installed.
 
 ## Install
-Download and install Docker engine from store: [https://store.docker.com/search?type=edition&offering=community]
+Download and install Docker engine from [store](https://store.docker.com/search?type=edition&offering=community)
 
 or directly
 
 ### MacOS
-[https://download.docker.com/mac/stable/Docker.dmg]
+[DockerCE](https://download.docker.com/mac/stable/Docker.dmg)
 
 ### Windows
-[https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe]
+[DockerCE](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe)
 
 ### Linux
 Run as root:
