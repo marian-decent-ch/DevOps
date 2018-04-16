@@ -28,3 +28,11 @@ Run DCore daemon in docker container:
 ```
 docker run -it -p 8090:8090 -p 9090:9090 decentnetwork/decentd decentd
 ```
+
+
+## CLI_wallet
+
+Run DCore wallet in docker container:
+```
+docker run -it -p 8090:8090 -p 8092:8092 decentnetwork/cli_wallet cli_wallet
+```
