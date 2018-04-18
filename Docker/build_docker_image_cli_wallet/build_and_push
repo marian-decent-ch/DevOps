@@ -1,0 +1,8 @@
+wget https://github.com/marian-decent-ch/DevOps/releases/download/latest_cli_wallet/DECENT-distribution-cli_wallet-1.2-Linux-x64.deb
+docker build -t decentnetwork/cli_wallet:1.2 .
+docker login
+docker push decentnetwork/cli_wallet:1.2
+docker tag decentnetwork/cli_wallet:1.2 decentnetwork/cli_wallet:latest
+docker push decentnetwork/cli_wallet:latest
+image rm decentnetwork/cli_wallet:latest
+image rm decentnetwork/cli_wallet:1.2

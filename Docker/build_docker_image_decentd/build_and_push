@@ -1,0 +1,8 @@
+wget https://github.com/marian-decent-ch/DevOps/releases/download/latest_decentd_deb/DECENT-distribution-decentd-1.2-Linux-x64.deb
+docker build -t decentnetwork/decentd:1.2 .
+docker login
+docker push decentnetwork/decentd:1.2
+docker tag decentnetwork/decentd:1.2 decentnetwork/decentd:latest
+docker push decentnetwork/decentd:latest
+image rm decentnetwork/decentd:latest
+image rm decentnetwork/decentd:1.2
