@@ -26,7 +26,7 @@ curl -fsSL https://get.docker.com/ | sh
 
 Run DCore daemon in docker container:
 ```
-docker run -it --network=host decentnetwork/decentd decentd
+docker run --rm -it --network=host decentnetwork/decentd decentd
 ```
 
 
@@ -34,5 +34,5 @@ docker run -it --network=host decentnetwork/decentd decentd
 
 Run DCore wallet in docker container:
 ```
-docker run -it --network=host decentnetwork/cli_wallet cli_wallet
+docker run --rm -it --network=host decentnetwork/cli_wallet cli_wallet
 ```
